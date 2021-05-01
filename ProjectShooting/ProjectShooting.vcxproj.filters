@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\RenderLibrary">
+      <UniqueIdentifier>{8446600a-2360-4b94-b466-cd0e2d1f3fd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\PreCompiled">
+      <UniqueIdentifier>{50637667-613b-4c2e-9ec9-d76684f7b0c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Common">
+      <UniqueIdentifier>{2ca77f5d-567b-4dbd-83d3-36d2e2a146f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\RenderLibrary\Layer">
+      <UniqueIdentifier>{115be9a2-ad7a-425e-b6a1-592e47643631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene">
+      <UniqueIdentifier>{7b1aef3e-294e-4a43-8a87-7aad1bad548f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\RenderLibrary\Scene">
+      <UniqueIdentifier>{3004f2ba-3b14-4ce3-b64f-d2565e0259da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Example">
+      <UniqueIdentifier>{95d53944-b182-4bff-bb37-5af6c5ae4800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Example\Layer">
+      <UniqueIdentifier>{58c5b915-063f-4a35-96d8-9196e2971bcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\RenderLibrary\Render">
+      <UniqueIdentifier>{0b779fb5-2851-4483-8218-9aefb30204fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\RenderLibrary\KeyEvent">
+      <UniqueIdentifier>{792e7e87-468f-49ee-bff3-562f8b132aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Example2">
+      <UniqueIdentifier>{b63774ce-e8c6-451b-b291-55b3dfb17857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Example2\Layer">
+      <UniqueIdentifier>{3e36a819-a036-4313-ac9e-184f182c95da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PreCompiled.h">
+      <Filter>소스 파일\PreCompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Singleton.h">
+      <Filter>소스 파일\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Layer.h">
+      <Filter>소스 파일\RenderLibrary\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scene.h">
+      <Filter>소스 파일\RenderLibrary\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LayerOption.h">
+      <Filter>소스 파일\RenderLibrary\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SceneManager.h">
+      <Filter>소스 파일\RenderLibrary\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ExamScene00.h">
+      <Filter>소스 파일\Scene\Example</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ExamLayer.h">
+      <Filter>소스 파일\Scene\Example\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ExamLayer2.h">
+      <Filter>소스 파일\Scene\Example\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SceneHandler.h">
+      <Filter>소스 파일\RenderLibrary\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RenderTimer.h">
+      <Filter>소스 파일\RenderLibrary\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RenderJob.h">
+      <Filter>소스 파일\RenderLibrary\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\RenderManager.h">
+      <Filter>소스 파일\RenderLibrary\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ExamLayer3.h">
+      <Filter>소스 파일\Scene\Example\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\KeyEventCallback.h">
+      <Filter>소스 파일\RenderLibrary\KeyEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ExamLayer4Fire.h">
+      <Filter>소스 파일\Scene\Example\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ExampleScene2.h">
+      <Filter>소스 파일\Scene\Example2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ExamLayer2_1.h">
+      <Filter>소스 파일\Scene\Example2\Layer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\ProjectShooting.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scene.cpp">
+      <Filter>소스 파일\RenderLibrary\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\RenderManager.cpp">
+      <Filter>소스 파일\RenderLibrary\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PreCompiled.cpp">
+      <Filter>소스 파일\PreCompiled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ExampleScene2.cpp">
+      <Filter>소스 파일\Scene\Example2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ExamLayer2_1.cpp">
+      <Filter>소스 파일\Scene\Example2\Layer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
